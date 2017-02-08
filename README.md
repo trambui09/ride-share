@@ -24,16 +24,18 @@ Now that you know what layers you have, decide what data structure would be most
 
 
 ### Step 3: Make the data structure!
-Create the data structure by starting with the outline, then manually inputing some of the data.
+Create the data structure by starting with the outline, then manually input all the data from rides.csv.
 
-Manually add the data from the first few lines of the CSV, don't worry about adding everything now! We'll automate that process in the next step.
+Remember: Using thoughtful indentation will make it easier to read data as it become more nested.
 
-### Step 4: Use iteration to make the complete structure
-Now that you have a solid structure, use iteration to automate adding all the data appropriately. Be sure to print out the final data structure in terminal to see that is came out as expected. 
+### Step 4:
+Iterate through the data structure to display, by printing in terminal, how many rides each driver has given and how much money they have made.
+
+If you have time, also display what the drivers average rating is. 
 
 
 
 ## Now what!?
-Now we can use the data structure we made above to more easily target specific parts of our data to more easily see how many rides a driver has given and how much they have made!
+We saw that we can use the data structure we made above to more easily target specific parts of our data to see how many rides a driver has given and how much they have made!
 
 What are other useful ways we could use this data structure?

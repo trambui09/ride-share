@@ -14,6 +14,6 @@
     # Setup the data strcture and manually input the first 3-5 lines of data from the CSV
 
 ########################################################
-# Step 4: Use iteration to make the complete structure
+# Step 4: Display data
 
-  # Use an iteration block to automate the process of taking data from the CSV file to make the data structure
+  # Use an iteration block to print driver's total rides and money made
