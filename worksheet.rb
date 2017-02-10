@@ -11,9 +11,9 @@
 ########################################################
 # Step 3: Make the data structure!
 
-    # Setup the data strcture and manually input the first 3-5 lines of data from the CSV
+    # Setup the data strcture and manually write in data presented in rides.csv
 
 ########################################################
-# Step 4: Display data
+# Step 4: Total Divers Earnings and Number of Rides
 
   # Use an iteration block to print driver's total rides and money made
