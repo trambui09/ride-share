@@ -6,7 +6,7 @@
 - Iterate through a nested data structure to return specific information
 
 ## Objective
-We will review drivers of a ride sharing service and their ride history. We want to be able to easily see how many rides each driver has given and how much money a driver has made.
+We will review drivers of a ride sharing service and their ride history. We want to be able to see how many rides each driver has given and how much money a driver has made.
 
 Currently, the data is stored in a CSV. We will take that data and thoughtfully organize it into a nested data structure using both arrays and hashes.
 
