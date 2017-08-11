@@ -35,7 +35,7 @@ Create the data structure by starting with the outline, then manually input all 
 
 Remember: Be mindful of indentation, it will make it substantially easier to read data as it become more nested.
 
-### Step 4: Total Divers Earnings and Number of Rides
+### Step 4: Total Drivers Earnings and Number of Rides
 Iterate through the data structure to display, by printing in terminal, how many rides each driver has given and how much money they have made.
 
 If you have time, also display what the drivers average rating is.
