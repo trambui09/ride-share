@@ -4,7 +4,7 @@
 
 - Practice compound data structures by building part of a ride-sharing app
 - Individual, [stage 1](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md#stage-1) project
-- Due before class, Thursday Feb 8
+- Due before class, **DATE HERE**
 
 ## Learning Goals
 - Logically order data into a nested data structure
