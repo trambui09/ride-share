@@ -1,5 +1,11 @@
 # Ride Sharing Data with Arrays and Hashes
 
+## At a Glance
+
+- Practice compound data structures by building part of a ride-sharing app
+- Individual, [stage 1](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md#stage-1) project
+- Due before class, Thursday Feb 8
+
 ## Learning Goals
 - Logically order data into a nested data structure
 - Understand benefits of organizing data in a nested structure
