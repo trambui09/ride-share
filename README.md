@@ -21,7 +21,7 @@ Sometimes applications rely on using data from another source, like Google Maps 
 
 The most common way you'll see that data represented is in JSON. We'll learn more about JSON more in depth later, but what you need to know now is that data is often represented with several layers of  nested data structures. Ultimately making up one big data structure.
 
-Have a look at [this example of JSON from Google Maps](https://www.sitepoint.com/google-maps-json-file/) and answer the following questions.
+Have a look at [this example of JSON from Google Maps](sample_google_maps_data.json) _([Source](https://www.sitepoint.com/google-maps-json-file/))_ and answer the following questions.
 - How many different layers of data structures are there?
 - What data structures were used?
 - Why were those data structures used for those layers?
@@ -35,6 +35,8 @@ Based on the data provided in the rides.csv, make a list of the different layers
 
 ### Step 2: Assign a data structure to each layer
 Now that you know what layers you have, decide what data structure would be most appropriate to use for each layer.
+
+After this point, consult with a neighbor.
 
 ### Step 3: Make the data structure!
 Create the data structure by starting with the outline, then manually input all the data from rides.csv into it.
