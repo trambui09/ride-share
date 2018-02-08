@@ -36,6 +36,8 @@ Based on the data provided in the rides.csv, make a list of the different layers
 ### Step 2: Assign a data structure to each layer
 Now that you know what layers you have, decide what data structure would be most appropriate to use for each layer.
 
+After this point, consult with a neighbor.
+
 ### Step 3: Make the data structure!
 Create the data structure by starting with the outline, then manually input all the data from rides.csv into it.
 
