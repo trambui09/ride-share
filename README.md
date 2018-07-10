@@ -1,13 +1,13 @@
 # Work with Ride Share Data using Arrays and Hashes
 
-## Introduction
-
-Rideshare Programs are systems that help people organize carpooling/vanpooling. Some popular on-demand rideshare apps, like Lyft and Uber, store and use data on riders, drivers, and trips, particularly data on when a trip happened, who was the driver, and who was the rider.
-
 ## At a Glance
 
 - Individual, [stage 1](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md#stage-1) project
 - Due before class, **DATE HERE**
+
+## Introduction
+
+Rideshare Programs are systems that help people organize carpooling/vanpooling. Some popular on-demand rideshare apps, like Lyft and Uber, store and use data on riders, drivers, and trips, particularly data on when a trip happened, who was the driver, and who was the rider.
 
 ## Learning Goals
 - Logically order data into a nested data structure
