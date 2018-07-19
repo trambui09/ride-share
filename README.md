@@ -48,10 +48,14 @@ Be mindful of indentation! Proper indentation will make reading data substantial
 
 ### Step 4: Total Driver's Earnings and Number of Rides
 Iterate through the data structure to display, by printing in terminal, the following info:
-- how many rides each driver has given
-- how much money each driver has made
+- the number of rides each driver has given
+- the total amount of money each driver has made
+- the average rating for each driver
+- Which driver made the most money?
+- Which driver has the highest average rating?
 
-Optionally, also display what each driver's average rating is.
+Optionally, print in the terminal:
+- For each driver, on which day did they make the most money?
 
 ## Wrap up
 
