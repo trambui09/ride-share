@@ -60,13 +60,3 @@ Optionally, print in the terminal:
 ## Wrap up
 
 By having this data structure, we can now more easily target specific parts of our data to see how many rides a driver has given.
-
-### Comprehension Questions
-
-1. What did your data structure look like at first? Did this structure evolve over time? Why?
-1. What was your strategy for going through the data structure and gathering information?
-1. What kind of information did you need to store in variables? What was the scope of each of these variables? Why?
-1. What kinds of iteration did you use? Did you use `.map`?
-1. Were some calculations easier than others? Why?
-
-We'll discuss these your answers to these questions together in class.
