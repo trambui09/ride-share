@@ -34,7 +34,7 @@ Have a look at [this example of JSON from Google Maps](sample_google_maps_data.j
 
 ## Let's do this!
 
-Use the file `worksheet.rb` to complete this activity. Open up this file, and type your answers below each prompt. We will not be turning this assignment in, so feel free to write any comments or thoughts within this file!
+Use the file `worksheet.rb` to complete this activity. Open up this file, and type your answers below each prompt. In the end, we'll cover in submission requirements so everything is clean, runnable, and good for turning in.
 
 ### Step 0: Understand the data we need to organize
 In your text editor, open up the file named `rides.csv`. This file holds pieces of concrete, instances of data as rows in a format similar to a table or spreadsheet. Answer the following questions, and write them down either in a text file, on paper, or on a whiteboard. If you're spending more than 5 minutes on a question, write down your questions and your ideas and move to the next question.
@@ -74,6 +74,25 @@ You may create and/or use as many variables, loops, and methods as you need.
 Optionally, print in the terminal:
 - For each driver, on which day did they make the most money?
 
+## Submission Requirements
+
+Once you're ready to submit this assignment (please mind the due date), you must do the following things to your code first:
+
+1. Read through **every line** in the file and do the following things to clean it up:
+    - Every thing that is not code needs to either be deleted or turned into a comment
+    - Check white space. Remove large amounts of unnecessary white space, and add in helpful white space
+    - Check indentation: make sure it's proper, especially as you nest and loop
+    - Remove all unnecessary `puts` statements. We expect that the program will output to the terminal the descriptions and the answers of each prompt, and nothing else
+    - Have all of the variable names been accurately named? Do you need to refactor any pieces of code?
+    - Check comments; do you need to delete unnecessary comments? Do you need to add some comments? (Most of the time, unless your code is particularly complex, you should have zero or few comments by the time of submission)
+1. **Most importantly:** make sure that your code is runnable. Run your code and make sure that simply running your program does not quit with Ruby error output. Your program should exit once everything is finished executing in an expected manner
+
+When you feel like your code is in a good place, please open an appropriate PR (Pull Request), answer the comprehension questions that appear when creating that PR, and submit!
+
 ## Wrap up
 
 By having this data structure, we can now more easily target specific parts of our data to see how many rides a driver has given.
+
+## What Instructors Are Looking For
+
+Check out the [feedback template](feedback.md) which lists the items instructors will be looking for as they evaluate your project.
