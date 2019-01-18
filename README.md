@@ -17,7 +17,7 @@ Rideshare Programs are systems that help people organize carpooling/vanpooling. 
 ## Objective
 We will look at data of drivers of a rideshare service and their ride history. We want to be able to see how many rides each driver has given and how much money a driver has made.
 
-Currently, the data is stored in a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values). In this assignment, you should take this data and thoughtfully organize it into **one single** var that is **one single** nested data structure. This nested data structure should use both arrays and hashes.
+Currently, the data is stored in a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values). In this assignment, you should take this data and thoughtfully organize it into **one single** variable that is **one single** nested data structure. This nested data structure should use both arrays and hashes.
 
 ### But why? Motivation to Organize Complex, Nested Data
 
@@ -37,7 +37,7 @@ Have a look at [this example of JSON from Google Maps](sample_google_maps_data.j
 Use the file `worksheet.rb` to complete this activity. Open up this file, and type your answers below each prompt. We will not be turning this assignment in, so feel free to write any comments or thoughts within this file!
 
 ### Step 0: Understand the data we need to organize
-In your text editor, open up the file named `rides.csv`. It holds a pieces of concrete, instances of data. Answer the following questions, and write them down either in a text file, on paper, or on a whiteboard. If you're spending more than 5 minutes on a question, write down your questions and your ideas and move to the next question.
+In your text editor, open up the file named `rides.csv`. This file holds pieces of concrete, instances of data as rows in a format similar to a table or spreadsheet. Answer the following questions, and write them down either in a text file, on paper, or on a whiteboard. If you're spending more than 5 minutes on a question, write down your questions and your ideas and move to the next question.
 
 1. What _things_ (objects, nouns) are represented or described in this file? We can think of at least six different things.
 1. From the things you listed in the previous question, all of those things have relationships to each other. (an ID belongs to a person, for instance. As an abstract, unrelated example a VIN belongs to a vehicle, and a vehicle has a VIN.) Consider the relationships between the pieces of data.
@@ -55,20 +55,6 @@ After this point, consult with a neighbor.
 
 ### Step 3: Make the data structure!
 Create the data structure by starting with the outline. Then, assign this data structure to a variable. Give the variable a good name that represents what the outermost layer is.
-
-At this point, my code (for an unrelated data set) may look like this:
-
-```rb
-locations = [
-  {
-    address: {
-      street_address: "",
-      country: ""
-    },
-    name: ""
-  }
-]
-```
 
 Then, manually input all the data from `rides.csv` into it. By "manually input all the data," we mean that you should be copying and pasting the literal data into this data structure, such as "DR0004" and "3rd Feb 2016" and "RD0022"
 
