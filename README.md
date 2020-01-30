@@ -10,11 +10,17 @@
 Rideshare Programs are systems that help people organize carpooling/vanpooling. Some popular on-demand rideshare apps, like Lyft and Uber, store and use data on riders, drivers, and trips, particularly data on when a trip happened, who was the driver, and who was the rider.
 
 ## Learning Goals
-- Logically order data into a nested data structure
-- Understand benefits of organizing data in a nested structure
-- Iterate through a nested data structure to return specific information
+
+- Create, read, and modify variables
+- Create and access arrays
+- Create and access hashes
+- Organize large amounts of related data into nested arrays and hashes
+- Access specific data within nested arrays and nested hashes
+- Iterate through a nested data structure using loops and/or Enumerable methods
+- Organize small pieces of code into methods, and call/invoke those methods
 
 ## Objective
+
 We will look at data of drivers of a rideshare service and their ride history. We want to be able to see how many rides each driver has given and how much money a driver has made.
 
 Currently, the data is stored in a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values). In this assignment, you should take this data and thoughtfully organize it into **one single** variable that is **one single** nested data structure. This nested data structure should use both arrays and hashes.
@@ -87,7 +93,7 @@ Once you're ready to submit this assignment (please mind the due date), you must
     - Check comments; do you need to delete unnecessary comments? Do you need to add some comments? (Most of the time, unless your code is particularly complex, you should have zero or few comments by the time of submission)
 1. **Most importantly:** make sure that your code is runnable. Run your code and make sure that simply running your program does not quit with Ruby error output. Your program should exit once everything is finished executing in an expected manner
 
-When you feel like your code is in a good place, please open an appropriate PR (Pull Request), answer the comprehension questions that appear when creating that PR, and submit!
+When you feel like your code is in a good place, please open an appropriate PR (Pull Request), answer the reflection questions that appear when creating that PR, and submit!
 
 ## Wrap up
 
