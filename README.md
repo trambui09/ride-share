@@ -52,7 +52,7 @@ In your text editor, open up the file named `rides.csv`. This file holds pieces 
 1. From the things you listed in the previous question, all of those things have relationships to each other. (an ID belongs to a person, for instance. As an abstract, unrelated example a VIN belongs to a vehicle, and a vehicle has a VIN.) Consider the relationships between the pieces of data.
 1. Lastly, in this assignment, we will rearrange all of the data into one data structure (with a lot of nested layers), that can be held in one variable. List some ideas: considering all of the relationships listed in the last question, what piece of data can contain the others at the top-most level? (Compared to the json example before, think about what the top-most layer of the hash and what that represented.) There is more than one correct answer, so just list out the options at this moment.
 
-When you're finished with this, you will discuss with your roundtable your ideas. At this point, if you have further questions, ask for clarification from an instructor.
+When you're finished with this, you will discuss your ideas with your roundtable. At this point, if you have further questions, ask for clarification from an instructor.
 
 ### Step 1: Establish the layers
 
