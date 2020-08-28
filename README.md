@@ -11,6 +11,8 @@ Rideshare Programs are systems that help people organize carpooling/vanpooling. 
 
 ## Learning Goals
 
+By the end of this project you will be able to:
+
 - Create, read, and modify variables
 - Create and access arrays
 - Create and access hashes
@@ -43,23 +45,27 @@ Have a look at [this example of JSON from Google Maps](sample_google_maps_data.j
 Use the file `worksheet.rb` to complete this activity. Open up this file, and type your answers below each prompt. In the end, we'll cover in submission requirements so everything is clean, runnable, and good for turning in.
 
 ### Step 0: Understand the data we need to organize
+
 In your text editor, open up the file named `rides.csv`. This file holds pieces of concrete, instances of data as rows in a format similar to a table or spreadsheet. Answer the following questions, and write them down either in a text file, on paper, or on a whiteboard. If you're spending more than 5 minutes on a question, write down your questions and your ideas and move to the next question.
 
 1. What _things_ (objects, nouns) are represented or described in this file? We can think of at least six different things.
 1. From the things you listed in the previous question, all of those things have relationships to each other. (an ID belongs to a person, for instance. As an abstract, unrelated example a VIN belongs to a vehicle, and a vehicle has a VIN.) Consider the relationships between the pieces of data.
 1. Lastly, in this assignment, we will rearrange all of the data into one data structure (with a lot of nested layers), that can be held in one variable. List some ideas: considering all of the relationships listed in the last question, what piece of data can contain the others at the top-most level? (Compared to the json example before, think about what the top-most layer of the hash and what that represented.) There is more than one correct answer, so just list out the options at this moment.
 
-When you're finished with this, discuss with a neighbor your ideas. At this point, if you have further questions, ask for clarification from an instructor.
+When you're finished with this, you will discuss with your roundtable your ideas. At this point, if you have further questions, ask for clarification from an instructor.
 
 ### Step 1: Establish the layers
+
 Based on the data provided in the `rides.csv`, make a list of the different layers our data structure will need. These layers will each represent a new data structure that will nested within another.
 
 ### Step 2: Assign a data structure to each layer
+
 Now that you know what layers you have, decide what data structure would be most appropriate to use for each layer.
 
-After this point, consult with a neighbor.
+You will discuss these ideas as a roundtable.
 
 ### Step 3: Make the data structure!
+
 Create the data structure by starting with the outline. Then, assign this data structure to a variable. Give the variable a good name that represents what the outermost layer is.
 
 Then, manually input all the data from `rides.csv` into it. By "manually input all the data," we mean that you should be copying and pasting the literal data into this data structure, such as "DR0004" and "3rd Feb 2016" and "RD0022"
@@ -69,6 +75,7 @@ Be mindful of indentation! Proper indentation will make reading data substantial
 ### Step 4: Total Driver's Earnings and Number of Rides
 
 Iterate through the data structure to display, by printing in terminal, the following info:
+
 - The number of rides each driver has given
 - The total amount of money each driver has made
 - The average rating for each driver
@@ -78,6 +85,7 @@ Iterate through the data structure to display, by printing in terminal, the foll
 You may create and/or use as many variables, loops, and methods as you need.
 
 Optionally, print in the terminal:
+
 - For each driver, on which day did they make the most money?
 
 ## Submission Requirements
@@ -85,6 +93,7 @@ Optionally, print in the terminal:
 Once you're ready to submit this assignment (please mind the due date), you must do the following things to your code first:
 
 1. Read through **every line** in the file and do the following things to clean it up:
+
     - Every thing that is not code needs to either be deleted or turned into a comment
     - Check white space. Remove large amounts of unnecessary white space, and add in helpful white space
     - Check indentation: make sure it's proper, especially as you nest and loop
