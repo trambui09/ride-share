@@ -156,6 +156,14 @@ highest_rating.each do |driver, value|
   break
 end
 
+#finding which date each driver made the most money on
+puts "-------------------------------------"
+puts "Which date did each driver make the most income on?"
+puts ""
+trips.map do |driver, rides|
+  puts "#{driver} made the most money on #{rides.max_by {|ride| ride[:cost]}[:date]}"
+end
+
 
 ########################################################
 # Step 1: Establish the layers
